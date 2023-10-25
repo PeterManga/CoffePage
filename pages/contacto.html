@@ -9,12 +9,13 @@
 
 <body>
 
-    <h1>CONTACTO</h1>
+    <div id="contacto">
+        <h1>CONTACTO</h1>
     <hr>
-    <form action="/contacto" method="post">
+    <form action="" method="get">
 
         <p>
-            <label for="nombre">Nombre*</label>
+            <label for="nombre" class="color">Nombre*</label>
             <input type="text" name="nombre" placeholder="Nombre" required autofocus id="nombre">
         </p>
 
@@ -24,7 +25,7 @@
         </p>
 
         <p>
-            <label for="correo">Correo electrónico*</label>
+            <label for="correo" class="color">Correo electrónico*</label>
             <input type="email" name="correo" placeholder="Correo electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,64}" required id="correo">
         </p>
 
@@ -69,10 +70,10 @@
         <input type="color" name="color" id="color">
 
         <p>
-            <label for="comentario">Comentario: </label>
-            <textarea name="comentario" id="" cols="30" rows="10" id="comentario"></textarea>
+            <label>Comentario: </label>
+            <textarea name="comentario" cols="30" rows="10" id="comentario" placeholder="Déjanos un comentario"></textarea>
         </p>
-        <footer>
+        <footer class="color">
             <small>(Los campos campos con asteriscos son obligatorios)</small>
         </footer>
 
@@ -85,6 +86,7 @@
     <p>
         <a href="#">arriba</a>
     </p>
+    </div>
 
 </body>
 

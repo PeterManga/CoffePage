@@ -1,23 +1,50 @@
-*{
-    background-color:#CCCC66;
+* {
+    background-color: #CCCC66;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-h1,h2,ul li{
+.color{
+    color: #853602;
+}
+h1,
+h2,
+ul li {
     color: #533b2a;
 }
-.tablaCultivo thead ,th, td {
+
+.tablaCultivo thead,
+th,
+td {
     border: solid 2px black;
 }
+
 .tablaCultivo {
     border-collapse: collapse;
     width: 70%;
 }
-#principal{
+
+#principal {
     width: 70%;
-    border-right: 10px solid rgb(83,59,42) ;
+    border-right: 10px solid rgb(83, 59, 42);
 }
-#prepracionMain{
+
+#prepracionMain {
     display: flex;
 }
-#prepracionMain >aside{
+
+#prepracionMain>aside {
     width: min-content;
+}
+
+#contacto form {
+    margin-left: 110px;
+    border-left: 4px solid #533b2a;
+    padding-left: 10px;
+}
+
+#inicial img {
+    margin-left: 200px;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
 }
