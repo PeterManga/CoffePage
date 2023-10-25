@@ -11,3 +11,13 @@ h1,h2,ul li{
     border-collapse: collapse;
     width: 70%;
 }
+#principal{
+    width: 70%;
+    border-right: 10px solid rgb(83,59,42) ;
+}
+#prepracionMain{
+    display: flex;
+}
+#prepracionMain >aside{
+    width: min-content;
+}
