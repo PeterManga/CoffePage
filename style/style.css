@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    background-color: #CCCC66;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #CCCC66;
+}
+.head{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    flex-direction: row;
+}
+#logo{
+    padding-left: 50px;
+    height: 100%;
+    align-self: left;
+}
+#banner{
+    padding-left: 400px;
+    height: 100%;
+    justify-content: c;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 85vh;
+}
+aside{
+    padding-left: 30px;
+    flex-direction: column;
+    background-color: #CCCC66;
+    height: 100%;
+    width: 200px;
+}
+
+.marcoPrincipal{
+    flex-direction: column;
+    background-color: black;
+    height: 100%;
+    width: 80%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+aside ul{
+    list-style-type: none;
+    border: 2px solid black;
+    border-radius: 15%;
+    height: 300px;
+    align-items: center;
+    padding: 20px;
+}
+iframe{
+    width: 100%;
+}

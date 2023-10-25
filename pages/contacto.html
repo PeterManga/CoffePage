@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../style/general.css">
+</head>
+
+<body>
+
+    <h1>CONTACTO</h1>
+    <hr>
+    <form action="/contacto" method="post">
+
+        <p>
+            <label for="nombre">Nombre*</label>
+            <input type="text" name="nombre" placeholder="Nombre" required autofocus id="nombre">
+        </p>
+
+        <p>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" placeholder="Apellidos" id="apellidos">
+        </p>
+
+        <p>
+            <label for="correo">Correo electrónico*</label>
+            <input type="email" name="correo" placeholder="Correo electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,64}" required id="correo">
+        </p>
+
+        <p>
+            <label>¿Cuántas tazas de café tomas al día?</label>
+            <input type="radio" name="tazas" value="0">0 tazas
+            <input type="radio" name="tazas" value="1 o 2 tazas">1 o 2 tazas
+            <input type="radio" name="tazas" value="1 o 2 tazas">3 o 4 tazas
+            <input type="radio" name="tazas" value="1 o 2 tazas">5 o más tazas
+        </p>
+
+        <p>
+            <label for="cafe">¿Qué tipo de café te gusta más?</label>
+            <br>
+            <select name="cafe" multiple id="cafe">
+                <option value="Arabica">Arabica</option>
+                <option value="Robusta">Robusta</option>
+                <option value="Colombiano">Colombiano</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="como">¿Cómo nos has encontrado?</label>
+            <input type="text" name="como" list="sugerencias" id="como">
+            <datalist id="sugerencias">
+                <option value="anuncio de televisión">
+                <option value="buscadores">
+                <option value="un amigo">
+            </datalist>
+        </p>
+
+
+        <label for="edad">Edad</label>
+        <p>
+            <input type="number" name="edad" min="18" max="99" id="edad">
+        </p>
+        <label for="temperatura">Temperatura del café</label>
+        <p>
+            <input type="range" name="temperatura" min="50" max="90" step="10" id="temperatura">
+        </p>
+        <label for="color">Color del café</label>
+        <input type="color" name="color" id="color">
+
+        <p>
+            <label for="comentario">Comentario: </label>
+            <textarea name="comentario" id="" cols="30" rows="10" id="comentario"></textarea>
+        </p>
+        <footer>
+            <small>(Los campos campos con asteriscos son obligatorios)</small>
+        </footer>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+
+    <p>
+        <a href="#">arriba</a>
+    </p>
+
+</body>
+
+</html>

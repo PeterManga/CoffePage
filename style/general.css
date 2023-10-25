@@ -1,0 +1,13 @@
+*{
+    background-color:#CCCC66;
+}
+h1,h2,ul li{
+    color: #533b2a;
+}
+.tablaCultivo thead ,th, td {
+    border: solid 2px black;
+}
+.tablaCultivo {
+    border-collapse: collapse;
+    width: 70%;
+}
